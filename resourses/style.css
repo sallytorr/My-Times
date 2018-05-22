@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+#header {
+  display: inline-flex;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 10px 20px 10px 20px;
+  z-index: 1;
+  max-height: 60px;
+}
+
+.logo_title {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  margin-right: 300px;
+}
+
+.logo {
+  display: inline-block;
+  padding-right: 10px;
+  max-height: 60px;
+}
+
+.top_menu {
+  display: inline-flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+nav {
+  margin: 0px 50px 0px 50px;
+  text-align: right;
+  flex: 1 1 150px;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 80px;
+  text-align: right;
+  flex: 1 1 150px;
+}
+
+.black {
+  color: black;
+}
+
+/* Main */
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
